@@ -1,0 +1,86 @@
+// Form page throuh html & CSS
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+
+<body bgcolor="hotpink">
+    <center>
+        <h3>EMPLOYEE REGISTRATION</h3>
+        <form action="" method="get">
+            <!-- ACTON TAKES PALCE AFTER THE SUBMIT AND WHEREEVER YOU LOCK UR IT WILL TAKE YOU IN THIS DIRECTION -->
+            <!-- THERE ARE THREE TYPE OF METHOD 
+            GET--IN THIS WE CAN SEE OUR DATA IN THE URL FORM
+            POST--IN THIS OUR DATA CAN BE SHOW IN THE URL FORM  -->
+            <table border="1">
+                <tr>
+                    <th>EMPLOYEE NAME:</th>
+                    <td><input type="text" id="EMPNAME" name="txtname"></td>
+                </tr>
+                <tr>
+                    <th>EMPLOYEE ID:</th>
+                    <td><input type="text" id="EMPID" name="txtid"></td>
+                </tr>
+                <tr>
+                    <th>PASSWORD</th>
+                    <td><input type="password" maxlength="8" id="EMPID" name="txtid"></td>
+                </tr>
+                <tr>
+                    <th>ADDRESS:</th>
+                    <td><textarea name="txtadd" id="ADD" cols="20" rows="5"></textarea></td>
+                </tr>
+                <th>GENDER:</th>
+                <td>
+                    Male:<input type="radio" name="rd1" id="" value="Male">
+                    <!-- must use same name to wok in single option -->
+                    Female: <input type="radio" value="Female" name="rd1" id="">
+                    Other: <input type="radio" value="Other" name="rd1" id="">
+                </td>
+                <tr>
+                    <th>City</th>
+                    <td>
+                        <select name="txtcity" id="EMPcity">
+                            <!-- with this multiple option we can select multiple option  -->
+                            <option value="">Meerut</option>
+                            <option value="">Meerut</option>
+                            <option value="" selected>Delhi</option>
+                            <option value="">Meerut</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Qualification:</th>
+                    <td>
+                        Diploma: <input type="checkbox" name="qual" value="chk1">
+                        UG: <input type="checkbox" name="qual" value="chk2">
+                        PG: <input type="checkbox" name="qual" value="chk3">
+                    </td>
+                </tr>
+                <tr>
+                    <th>DOB:</th>
+                    <td><input type="date" name="txtdob" value="DOB" id="EMPdob"></td>
+                    <!-- for time we simply us e type=time -->
+                </tr>
+                <tr>
+                    <th>DOCUMENT:</th>
+                    <td><input type="file" name="txtfile" id="EMPfile"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" name="txtsub" id="EMPsub"value="submit">
+                        <input type="reset" name="txtsub" id="EMPsub"value="reset">
+                    </td>
+
+                </tr>
+            </table>
+        </form>
+    </center>
+</body>
+
+</html>
