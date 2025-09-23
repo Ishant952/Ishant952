@@ -1,6 +1,6 @@
-- 👋 Hi, I’m @Ishant952
+- 👋 Hi, I’m @Ishant Bhardwaj
 - 👀 I’m interested in ...
-- 🌱 I’m currently learning web devlopment
+- 🌱 I’m currently learning programming languages
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me @ishantbhardwaj2022@gmail.com
 - 😄 Pronouns: ... He
