@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @Ishant Bhardwaj
-- 👀 I’m interested in ...
+- 👀 I’m interested in Data Science
 - 🌱 I’m currently learning programming languages
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me @ishantbhardwaj2022@gmail.com
